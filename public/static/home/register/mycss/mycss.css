@@ -1,0 +1,197 @@
+﻿.clock {
+    width: 20px;
+    position: relative;
+    z-index: 3;
+}
+
+.clock::after {
+    position: absolute;
+    bottom: -20px;
+    left: -9px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #ff0000;
+}
+
+.clock {
+    -webkit-animation: go 1s ease-in-out alternate infinite;
+    -moz-animation: go 1s ease-in-out alternate infinite;
+    animation: go 1s ease-in-out alternate infinite;
+}
+
+@keyframes go {
+    0% {
+        -webkit-transform: rotate(30deg);
+        -webkit-transform-origin: top center;
+        -moz-transform: rotate(30deg);
+        -moz-transform-origin: top center;
+        transform: rotate(30deg);
+        transform-origin: top center;
+    }
+    100% {
+        -webkit-transform: rotate(-30deg);
+        -webkit-transform-origin: top center;
+        -moz-transform: rotate(-30deg);
+        -moz-transform-origin: top center;
+        transform: rotate(-30deg);
+        transform-origin: top center;
+    }
+}
+
+#qingtian {
+    width: 200px;
+    position: absolute;
+    left: -100px;
+    z-index: 5;
+}
+
+.longd {
+    width: 222px;
+    height: 30px;
+    padding: 0px 5px 0px 34px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.longd i {
+    position: absolute;
+    left: 6px;
+    top: 3px;
+    font-size: 18px;
+    color: #ccc;
+}
+
+.longd input {
+    height: 30px;
+    border: none;
+}
+
+.cbx {
+    border: none;
+    line-height: 20px;
+    padding-left: 5px;
+}
+
+.cbx span {
+    position: relative;
+    top: -11px;
+    left: 3px;
+}
+
+#ddlulu {
+    height: 30px;
+    width: 264px;
+    background: #ccc;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+}
+
+#ddlulu:hover {
+    background: #FC6F31;
+    cursor: pointer;
+}
+
+.gonggao {
+    width: 600px;
+    height: 450px;
+    position: fixed;
+    top: 80px;
+    left: 350px;
+    background: #fff;
+    z-index: 999;
+    font-family: "微软雅黑";
+    background: url('/static/home/index/images/gonggao1.png') no-repeat 0 80px #fff;
+}
+
+.gonggao h2 {
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    font-size: 24px;
+    background: #c7f8da;
+    border-bottom: 1px solid #ccc;
+    color: #da9b14;
+    font-weight: 500;
+}
+
+.gonggao p {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 32px;
+    padding-left: 130px;
+}
+
+.gonggao div {
+    position: absolute;
+    right: 0;
+    bottom: 70px;
+    padding: 30px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.gonggao i {
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.gonggao i:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.gonggao button {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 30px;
+    left: 280px;
+}
+
+.motai {
+    height: 100%;
+    width: 100%;
+    background: rgba(204, 204, 204, 0.4);
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+#notitle {
+    margin: 0;
+}
+
+#pass1{
+	float: right;line-height: 30px; color: #3ACA81;
+}
+#pass1:hover{
+    color: #ff6600;
+}

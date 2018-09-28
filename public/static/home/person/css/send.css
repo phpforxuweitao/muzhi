@@ -1,0 +1,19 @@
+.gz_list{overflow:hidden;}
+.gz_list li{ width:46%; padding:16px 12px; float:left;border-bottom:1px dotted #CCC; overflow:hidden;}
+.gz_list li:nth-child(odd){ float:left;}
+.gz_list li:nth-child(even){ float:right;}
+.gz_list li img{ display:block; width:76px; height:76px;float:left; margin-right:18px;}
+.gz_info{ line-height:26px; font-size:13px;}
+.gz_info a{font-size:14px;}
+.gz_list li span{ display:block; font-size:14px;color: #7f7f7f;}
+.gz_page{ width:100%; margin-top:22px; text-align:center;}
+
+.sx_form{ margin-top:22px; overflow:hidden;}
+.sx_list{height: 46px;margin-bottom: 10px;width: 100%;clear: both;}
+.sx_list label {float: left;line-height: 36px; width: 85px;display: block;font-size: 15px;text-align: right;}
+.sjr_name{float: left;margin-left: 12px;width: 200px;height: 20px;padding: 8px 10px 8px 14px;border-radius: 1px;border: 1px solid #e2e2e2;font-size: 14px;line-height: 20px;outline: 0;}
+.sx_content{ height:auto;margin-bottom: 10px;width: 100%;clear: both; overflow:hidden;}
+.sx_content label {float: left;line-height: 36px; width: 85px;display: block;font-size: 15px;text-align: right;}
+.sx_txt{float: left;margin-left: 12px; width:400px; height:200px;border: 1px solid #e2e2e2; line-height:22px;padding: 6px 10px;outline:none;resize: none;}
+.sxSub_btn{ margin-left:97px; margin-top:20px;width: 120px;height: 40px;background: #04ce9b;line-height: 40px;font-family: Microsoft Yahei;font-size: 20px;color: #fff;text-align: center;border: none;cursor: pointer;}
+.sxSub_btn:hover {background: #00b789;}

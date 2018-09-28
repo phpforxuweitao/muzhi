@@ -1,0 +1,26 @@
+#footer_links {
+    width: 1200px;
+    margin: 0 auto;
+    height: 200px;
+}
+#footer_links>.l {
+    width: 760px;
+    height: 200px;
+    float: left;
+    padding: 20px;
+    background-color: red;
+}
+#footer_links>.l>ul>li {
+    float: left;
+    margin-right: 10px;
+}
+#footer_links>.l>ul>li>a {
+    font-size: 16px;
+}
+#footer_links>.r {
+    width: 360px;
+    height: 200px;
+    float: left;
+    padding: 20px;
+    background-color: grey;
+}

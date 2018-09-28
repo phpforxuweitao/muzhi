@@ -1,0 +1,39 @@
+.article_pages{
+	height: 50px;
+	width: 750px;
+	text-align: center;
+	padding-top: 10px;
+}
+.pagination>li{
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+}
+.pagination>li>a{
+	display: block;
+	width: 26px;
+	height: 26px;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+}
+.pagination>li>a:hover{
+	background-color: #65CEA7; 
+	color: #eee;
+}
+.active{
+	width: 26px;
+	height: 26px;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	background-color: #65CEA7; 
+	color: #eee;
+}
+.disabled{
+	width: 26px!important;
+	height: 26px!important;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	
+}

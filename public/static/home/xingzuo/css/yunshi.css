@@ -1,0 +1,409 @@
+﻿/*明日运势*/
+.meiri_wrapper
+{
+    width: 730px;
+    margin: 20px 44px 44px 44px;
+}
+.meiri_wrapper:after
+{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.meiri_box
+{
+    float: left;
+    width: 313px;
+    height: 200px;
+    padding: 20px 0px 0px 20px;
+    border: 1px solid #eaeaea;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.meiri_box img
+{
+    float: left;
+    width: 100px;
+    margin-top: 20px;
+}
+.meiri_box h4
+{
+    margin-left: 120px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.meiri_box p
+{
+    margin-left: 120px;
+    margin-top: 6px;
+    line-height: 24px;
+}
+.meiri_box p .date
+{
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+    color: #666;
+    margin-bottom: 8px;
+}
+.meiri_wrapper .more_btn
+{
+    clear: both;
+    display: block;
+    font-weight: normal;
+    width: 500px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #7A4B9C;
+    border: 1px solid #7A4B9C;
+    text-align: center;
+    border-radius: 21px;
+    letter-spacing: 1px;
+    margin-left: 99px;
+}
+.meiri_wrapper .more_btn:hover
+{
+    font-weight: bold;
+}
+
+/*每日运势导航*/
+.meiri_nav
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.meiri_nav a
+{
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 16px;
+}
+.meiri_nav a:hover
+{
+    border: 1px solid #782faa;
+    color: #782faa;
+}
+.meiri_nav a.cur
+{
+    border: 1px solid #782faa;
+    color: #782faa;
+    font-weight: bold;
+}
+
+/*运程查询*/
+.yunshi_left
+{
+    float: left;
+	width: 790px;
+	background-color: #FCF7FF;
+	background-image: url(../images/yunshi_chaxun.png);
+	background-repeat: no-repeat;
+    border-bottom: 1px solid #efefef;
+}
+.yunshi_nav
+{
+    height: 54px;
+    background-color: #9724E1;
+    position: relative;
+}
+.yunshi_nav strong
+{
+    display: inline-block;
+    width: 76px;
+    height: 30px;
+    line-height: 30px;
+    color: #f8f8f8;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-right: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #841DC8;
+}
+.yunshi_nav strong.open,
+.yunshi_nav strong:hover
+{
+    background-color: #B971EA;
+}
+.yunshi_nav strong em
+{
+    display: inline-block;
+    width: 13px;
+    height: 7px;
+    margin-left: 4px;
+    background: url(../images/bg.png) no-repeat -173px -429px;
+    position: relative;
+    bottom: 2px;
+}
+.yunshi_nav strong.open em
+{
+    background-position: -195px -429px;
+}
+.yunshi_nav a
+{
+    display: inline-block;
+    width: 76px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: #e3e3e3;
+    font-size: 16px;
+    margin-top: 14px;
+    margin-left: 8px;
+    border-radius: 6px;
+}
+.yunshi_nav a.cur,
+.yunshi_nav a:hover
+{
+    color: #50246E;
+    background-color: #FCF7FF;
+}
+
+/*选择星座*/
+.yunshi_nav .sign_nav
+{
+    display: none;
+    width: 768px;
+    padding: 20px 0px 0px 20px;
+    position: absolute;
+    top: 54px;
+    z-index: 66;
+    border: 1px solid #efefef;
+    border-top: none;
+	background-color: #efefef;
+	background-image: url(../images/yunshi_chaxun.png);
+	background-position: -1px -54px;
+	background-repeat: no-repeat;
+	box-shadow: 0px 5px 20px 5px #666;
+}
+.yunshi_nav icon
+{
+    display: block;
+    width: 18px;
+    height: 9px;
+	background: url(../images/bg.png) -217px -429px;
+    position: relative;
+    top: -29px;
+    left: 29px;
+}
+.yunshi_nav .sign_nav a
+{
+    float: left;
+    display: inline-block;
+    width: 170px;
+    height: 43px;
+    line-height: 20px;
+    color: #444;
+    font-size: 16px;
+    text-align: left;
+    margin: 0px 20px 20px 0px;
+    padding-top: 7px;
+    border: 1px solid #e2e2e2;
+    border-radius: 25px;
+	background-color: #f5f5f5;
+	cursor: pointer;
+}
+.yunshi_nav .sign_nav small
+{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    font-style: normal;
+    font-size: 12px;
+    color: #999;
+}
+.yunshi_nav .sign_nav span
+{
+    float: left;
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    margin-right: 14px;
+    border-radius: 29px;
+    position: relative;
+    bottom: 11px;
+    left: -1px;
+	background-color: #e2e2e2;
+	background-repeat: no-repeat;
+    background-image: url(../images/astro_yuncheng.png);
+    background-position:  4px 8px;
+}
+.yunshi_nav .sign_nav span.by { background-position:  4px 8px; }
+.yunshi_nav .sign_nav span.jn { background-position:  -64px 8px; }
+.yunshi_nav .sign_nav span.sz { background-position:  -133px 8px; }
+.yunshi_nav .sign_nav span.jx { background-position:  -200px 8px; }
+.yunshi_nav .sign_nav span.shz { background-position:  -268px 8px; }
+.yunshi_nav .sign_nav span.cn { background-position:  -337px 8px; }
+.yunshi_nav .sign_nav span.tc { background-position:  -405px 8px; }
+.yunshi_nav .sign_nav span.tx { background-position:  -473px 8px; }
+.yunshi_nav .sign_nav span.ss { background-position:  -542px 8px; }
+.yunshi_nav .sign_nav span.mj { background-position:  -610px 8px; }
+.yunshi_nav .sign_nav span.sp { background-position:  -678px 8px; }
+.yunshi_nav .sign_nav span.sy { background-position:  -747px 8px; }
+
+.yunshi_nav .sign_nav a.cur,
+.yunshi_nav .sign_nav a:hover
+{
+    border: 1px solid #D2A5F1;
+	background-color: #F2E6FB;
+	font-weight: bold;
+}
+.yunshi_nav .sign_nav a.cur span,
+.yunshi_nav .sign_nav a:hover span
+{
+	background-color: #D2A5F1;
+}
+.yunshi_nav .sign_nav a.cur small,
+.yunshi_nav .sign_nav a:hover small
+{
+	font-weight: normal;
+}
+
+/*运程概要*/
+.yunshi_summary
+{
+    padding-top: 14px;
+    padding-bottom: 10px;
+    height: 270px;
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    border-bottom: 1px solid #F6E9FE;
+}
+.yunshi_summary .logo
+{
+    float: left;
+    width: 250px;
+    height: 270px;
+    text-align: center;
+}
+.yunshi_summary .logo img
+{
+    margin: auto;
+    margin-top: 40px;
+}
+.yunshi_summary .logo span
+{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    margin-top: 8px;
+    color: #555;
+}
+.yunshi_summary .info
+{
+    float: left;
+    width: 528px;
+    height: 270px;
+    margin-left: 10px;
+}
+.yunshi_summary .info h1
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.yunshi_summary .info h1 small
+{
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    margin-left: 12px;
+    background: #D406EC;
+    padding: 0 6px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+    border-radius: 4px;
+    position: relative;
+    bottom: 3px;
+}
+.yunshi_summary .info ul
+{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.yunshi_summary .info ul li
+{
+    float: left;
+    width: 250px;
+    height: 36px;
+    line-height: 36px;
+}
+.yunshi_summary .info ul li.dp
+{
+    width: 500px;
+}
+
+/*运程内容*/
+.yunshi_content
+{
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    border-top: 2px solid #fff;
+    padding: 30px 45px 1px;
+}
+.yunshi_content p
+{
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 2em;
+    text-align: justify;
+    word-wrap: break-word;
+}
+.yunshi_content p:last-child
+{
+    margin-bottom: 0px;
+}
+.yunshi_content span
+{
+    display: block;
+    width: 78px;
+    height: 26px;
+    color: #fff;
+    line-height: 25px;
+    padding-left: 28px;
+    font-size: 16px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+}
+.yunshi_content span.dp
+{
+    background: #ECA206 url(../images/bg.png) no-repeat -338px -440px;
+}
+.yunshi_content span.zt
+{
+    background: #8806EC url(../images/bg.png) no-repeat -337px -465px;
+}
+.yunshi_content span.aq
+{
+    background: #D406EC url(../images/bg.png) no-repeat -337px -489px;
+}
+.yunshi_content span.sy
+{
+    background: #0652EC url(../images/bg.png) no-repeat -337px -515px;
+}
+.yunshi_content span.cf
+{
+    background: #EC7206 url(../images/bg.png) no-repeat -337px -541px;
+}
+.yunshi_content span.jk
+{
+    background: #328B10 url(../images/bg.png) no-repeat -337px -565px;
+}
+
+.yunshi_box
+{
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    padding: 0px 44px;
+}

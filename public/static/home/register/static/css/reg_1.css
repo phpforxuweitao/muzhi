@@ -1,0 +1,71 @@
+﻿*{ padding:0px; margin:0px;}
+html,body,input{ padding:0px; margin:0px; font-family:'microsoft yahei';}
+body{padding:0px;margin:0px;background-color:#F0F0F0;text-align:center;background-attachment:fixed; font-family:'microsoft yahei';}
+a{ text-decoration:none;}
+.clear{ clear:both;}
+.regNew_top{width:100%; height:55px; background:#F6F7F9; border-bottom:#1px solid #E1E1E1; box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);}
+.reg_topCon{width:1111px; height:55px; margin-left:auto; margin-right:auto; }
+.logo{ width:180px; height:60px; float:left; background: url(../images/logo2_1.png) 0 -12px no-repeat;}
+.regNew_enter{ width:180px; float:right;}
+.regNew_enter a{ display:inline-block; font-size:15px; line-height:55px; color:#5a5a5a; padding:0px 12px;}
+.regNew_enter a:hover{color: #55c447;}
+.reg_main{width:1061px;margin: 0 auto; margin-top:30px; overflow:hidden;}
+.reg_border{padding:15px 50px 50px 50px;border:1px solid #e7e7e7;background-color: #fff; overflow:hidden;box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.05);}
+.reg_left{ width:530px; height:670px; float:left;}
+.reg_right{ width:270px;height:670px; float:right; overflow:hidden;}
+.reg_head{height: 55px;line-height: 48px;text-align: center; border-bottom:#EEECEC 1px solid; margin-bottom:30px}
+.reg_head span{font-size: 24px; color:#5A5A5A}
+.reg_rightHead{height: 55px;line-height: 52px;text-align: center; border-bottom:#EEECEC 1px solid; margin-bottom:20px}
+.reg_rightHead span{font-size: 22px; color:#5A5A5A}
+.reg_form{ width:auto; margin-top:8px;}
+.regItem {height: 46px;margin-bottom:10px;width: 100%;clear:both; color:#5a5a5a}
+.regItem label {float: left;line-height: 36px;width: 85px;display: block; font-size:15px; text-align:right;}
+.regInput_text {float:left; margin-left:12px;width: 200px;height: 20px;padding: 8px 10px 8px 14px;border-radius: 1px;border: 1px solid #AFCBAD;font-size: 14px;line-height: 20px;outline: 0;font-family:'microsoft yahei';}
+
+.regSex{width:85px; height:40px; padding-top:10px; text-align:right; color:#5a5a5a; float:left;}
+.reg_SexRight{height:40px; padding-left:10px; padding-top:10px; color:#5a5a5a; float:left}
+.tip { padding-top:5px;}
+.qqLogin a{ display:block; float:left; margin-left:16px; font-size:12px; line-height:40px; color:#ff6600;}
+.qqLogin a:hover{color: #55c447;}
+.reg_btn{display: block;width:78%; margin:0px auto;height: 42px;background-color: #44b336;border: 0;border-radius: 3px;color: #fff;font-size: 18px;line-height: 42px;text-align: center;outline: 0;cursor: pointer;font-family:'microsoft yahei';}
+.yam{ display:block; float:left; margin-left:12px;}
+.yam img{vertical-align: middle;}
+.yam a{ font-size:14px; text-decoration:none; color:#0a8cd2; margin-top:10px;}
+.regInput_yzm{float:left; margin-left:12px;width:129px;height: 20px;padding: 10px 10px 10px 14px;border-radius: 3px;border: 1px solid #e5e5e5;font-size: 14px;line-height: 20px;outline: 0;}
+.yzm{padding-top:7px; text-align:left; font-size:16px; color:#999}
+.yzm a:link{ color:#000; padding-left:10px}
+.reg_btn:hover {background-color: #55c447;}
+.info_tip{ font-size: 12px;padding-top: 16px;text-align: center;color: #000; margin-bottom:30px;}
+.info_tip a{color: #44b336;}
+.info_tip a:hover{color: #55c447;}
+#username a { color:#CCC}
+.regInput_text:focus,.regInput_yzm:focus{ border:1px solid #44b336;}
+::-webkit-input-placeholder { /* WebKit browsers */ 
+color: #AFCBAD; font-size:14px
+} 
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color: #AFCBAD; 
+} 
+::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color: #AFCBAD; 
+} 
+:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color: #AFCBAD; 
+} 
+.regInput_text1 {float:left; margin-left:12px;width: 200px;height: 20px;padding: 8px 10px 8px 14px;border-radius: 1px;border: 1px solid #AFCBAD;font-size: 14px;line-height: 20px;outline: 0;font-family:'microsoft yahei';}
+.regInput_text2 {float:left; margin-left:12px;width: 200px;height: 20px;padding: 8px 10px 8px 14px;border-radius: 1px;border: 1px solid #AFCBAD;font-size: 14px;line-height: 20px;outline: 0;font-family:'microsoft yahei';}
+.vdcode{float:left; margin-left:12px;width: 100px;height: 20px;padding: 8px 10px 8px 14px;border-radius: 1px;border: 1px solid #AFCBAD;font-size: 14px;line-height: 20px;outline: 0;font-family:'microsoft yahei'; margin-right:20px}
+
+.login_kind{ width:310px; height:80px;}
+.login_kind a{ display:block; float:left;width:80px; height:80px; padding-right:28px;}
+.login_kind a img{ display:block; width:100%; height:100%; border:none;}
+.login_kind img {  cursor: pointer; transition: all 0.5s;}
+.login_kind img:hover { transform: scale(1.1);}
+
+.login_explain{ margin-top:38px;}
+.explain{height:36px;line-height:32px; text-align:left;border-bottom:#EEECEC 1px solid; margin-bottom:22px; text-indent:4px;}
+.explain span{font-size:15px; color:#666;}
+.sm_text{ font-size:13px; text-align:justify; line-height:26px; color:#CCC}
+.reg_footer{width:100%; height:60px; background:#FAFAFA; margin-top:60px;}
+.reg_bqsm{width:1000px;margin: 0px auto;height: auto;text-align: center;overflow: hidden;font-size: 12px;color: #999;line-height: 28px; padding-top:15px;}
+.reg_bqsm a {display: inline-block;margin: 0px 8px 0px 8px;color: #999;}
